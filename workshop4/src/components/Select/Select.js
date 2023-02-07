@@ -35,6 +35,7 @@ const Select = ({ label, value, children, ...delegated }) => {
 const Wrapper = styled.label``;
 
 const VisibleLabel = styled.span`
+  width: fit-content;
   color: ${COLORS.gray[700]};
   margin-right: 16px;
 `;
